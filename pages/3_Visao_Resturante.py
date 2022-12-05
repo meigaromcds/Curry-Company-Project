@@ -173,7 +173,7 @@ city_options = st.sidebar.multiselect(
 # ETL
 # ===========================
 # Extracao
-file_path = '/Users/meigarom/test-bench/ftc_analisando_dados_python/dataset/'
+file_path = 'dataset/'
 df = pd.read_csv( file_path + 'train.csv' )
 
 # Limpeza
