@@ -140,8 +140,7 @@ st.header("Marketplace - Visão Restaurantes")  ## Main Title
 # ===========================
 # Filtros - Side bar
 # ===========================
-image_path = '/Users/meigarom/test-bench/ftc_analisando_dados_python/'
-image = Image.open( image_path + 'logo.png' )
+image = Image.open( 'logo.png' )
 st.sidebar.image( image, width=120 )
 
 st.sidebar.markdown( "# Curry Company" )
